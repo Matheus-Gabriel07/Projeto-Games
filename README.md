@@ -4,11 +4,10 @@
 Esse programa, em java, simula o sistema de uma loja de jogos.
 
 ## Referência
- - [Autores]() 
- - [Projeto](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Funcionalidades](https://github.com/matiassingers/awesome-readme)
- - [Deploy]()
- - [Aprendizado]()
+ - [Projeto](https://github.com/Matheus-Gabriel07/Projeto-Games/tree/main#projeto)
+ - [Funcionalidades](https://github.com/Matheus-Gabriel07/Projeto-Games/tree/main#funcionalidades)
+ - [Code](https://github.com/Matheus-Gabriel07/Projeto-Games/tree/main#code)
+ - [Aprendizado](https://github.com/Matheus-Gabriel07/Projeto-Games/tree/main#aprendizados)
 
 
 ## Autores
