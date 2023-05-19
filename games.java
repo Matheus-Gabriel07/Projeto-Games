@@ -50,13 +50,13 @@ public class games {
             }
 
             if (opc == 1) {
-                
+
                 System.out.println("===Area do dev===");
                 System.out.println("Quantos cadastros temos?");
                 int numCad2 = sc.nextInt();
-                
+
                 System.out.println("Você já tem cadastro? Sim(1) Não(2)");
-                
+
                 int respCad = sc.nextInt();
 
                 while (respCad != 1) {
@@ -113,14 +113,17 @@ public class games {
                 resp = sc.nextInt();
                 if (resp == 2 || resp == 3) {
                     carrinho = vAcao;
+                    System.out.println("Jogo Adcionado ao Carrinho\n\n");
                     System.out.println("Deseja realizar mais uma compra?"
-                    +   "\nDigite 1 para sim")
-                    +   "\";
+                            + "\nDigite 1 para sim"
+                            + "\n Digite 2 para não");
                     int questRealizarCompra = sc.nextInt();
                     if (questRealizarCompra == 1) {
                         continue;
                     }
-                    if ()
+                    if (questRealizarCompra == 2) {
+                        break;
+                    }
                 }
                 if (resp == 1) {
                     carrinho = vDesconto;
@@ -144,6 +147,17 @@ public class games {
                 resp = sc.nextInt();
                 if (resp == 7 || resp == 8 || resp == 9) {
                     carrinho = vAventura;
+                                        System.out.println("Jogo Adcionado ao Carrinho\n\n");
+                    System.out.println("Deseja realizar mais uma compra?"
+                            + "\nDigite 1 para sim"
+                            + "\n Digite 2 para não");
+                    int questRealizarCompra = sc.nextInt();
+                    if (questRealizarCompra == 1) {
+                        return;
+                    }
+                    if (questRealizarCompra == 2) {
+                        break;
+                    }
                 }
                 if (resp == 0) {
                     System.out.println("Esse programa foi encerrado");
@@ -215,14 +229,14 @@ public class games {
                                     av++;
                                     break;
                                 }
+                        }
 
-                                System.out.println(
-                                        "Se desejar cadastrar um jogo, digite 1; Para sair desta sessão digite 0");
-                                op = sc.nextInt();
-                                if (op == 0) {
-                                    System.out.println("Esse programa foi encerrado");
-                                    break;
-                                }
+                        System.out.println(
+                                "Se desejar cadastrar um jogo, digite 1; Para sair desta sessão digite 0");
+                        op = sc.nextInt();
+                        if (op == 0) {
+                            System.out.println("Esse programa foi encerrado");
+                            break;
                         }
                     }
                     System.out.println("Sistema lotado");
