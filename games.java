@@ -115,7 +115,7 @@ public class games {
                     carrinho = vAcao;
                     System.out.println("Deseja realizar mais uma compra?"
                     +   "\nDigite 1 para sim")
-                    +;
+                    +   "\";
                     int questRealizarCompra = sc.nextInt();
                     if (questRealizarCompra == 1) {
                         continue;
