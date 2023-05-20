@@ -1,3 +1,4 @@
+package Assets;
 import java.util.*;
 
 public class trabComp {
@@ -30,5 +31,6 @@ public class trabComp {
         else{
             System.out.println("Desculpe, não estamos fazendo cadastros nesse momento, tente novamente mais tarde");
         }
+        sc.close();
     }
 }
